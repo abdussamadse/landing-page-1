@@ -1,4 +1,6 @@
+import FeatureSection from "./components/FeatureSection";
 import Hero from "./components/Hero";
+import InfoSection from "./components/InfoSection";
 import Navbar from "./components/Navbar";
 import Reviews from "./components/Reviews";
 
@@ -11,6 +13,8 @@ export default function App() {
         <Hero />
       </div>
       <Reviews />
+      <InfoSection />
+      <FeatureSection />
     </div>
   );
 }
