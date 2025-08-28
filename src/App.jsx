@@ -1,8 +1,13 @@
+import AboutSection from "./components/AboutSection";
+import ContactSection from "./components/ContactSection";
 import FeatureSection from "./components/FeatureSection";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import InfoSection from "./components/InfoSection";
+import LeadershipSection from "./components/LeadershipSection";
 import Navbar from "./components/Navbar";
 import Reviews from "./components/Reviews";
+import ServicesSection from "./components/ServicesSection";
 
 export default function App() {
   return (
@@ -15,6 +20,11 @@ export default function App() {
       <Reviews />
       <InfoSection />
       <FeatureSection />
+      <ServicesSection />
+      <AboutSection />
+      <LeadershipSection />
+      <ContactSection />
+      <Footer />
     </div>
   );
 }
